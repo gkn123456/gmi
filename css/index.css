@@ -10,6 +10,9 @@ i .iconfont{
 i{
 	font-size: 70px;
 }
+a{
+	text-decoration: none;
+}
 .tou{
 	width: 100%;
 	height:40px; 
@@ -149,7 +152,7 @@ i{
 	height:100px; 
 	background:;
 	margin: 0 auto;
-	position: relative;
+	
 }
 .dhxl{
 	width: 100%;
@@ -157,7 +160,6 @@ i{
 	position: absolute;
 	top: 140px;
 	right: 0px;
-	
 	overflow: hidden;
 	transition: all 0.5s;
 }
@@ -884,6 +886,10 @@ h3{
 	text-align:center;
 	line-height:1px; 
 }
+.sp1 img{
+	width: 296px;
+	height: 180px;
+}
 .dphxy7 .a9{
 	display: block;
 	width:117px; 
@@ -1505,9 +1511,15 @@ h3{
 	height:20px; 
 	border-radius:20px; 
 	border:2px solid #fff;
+
 	position: absolute;
 	top:146px;
 	left: 20px;  
+}
+.sphx li .aaa i{
+	display: block;
+	width:20px; 
+	height:20px;
 }
 .sphx li .aab{
 	display: block;
@@ -1589,6 +1601,7 @@ h3{
 	float: left;
 	margin-right:14px;
 	transition:all 0.5s 0s linear; 
+	position: relative;
 }
 .sphx ul li:last-child{
 	margin-right:0px;
@@ -1600,11 +1613,11 @@ h3{
 	background:pink; 
 }
 .sphx ul li .aaa i{
-	font-size:24px; 
+	font-size:20px; 
 	color:#fff;
-	position:absolute;
-	top:;
-	left: 6px;
+	display: block;
+	margin-left: 7px;
+
 }
 .sphx ul li .sp2{
 	font-size:14px; 
